@@ -18,7 +18,7 @@ describe Postcodesio do
     end
 
     it "should return a postcode between 5-7 in length"  do
-      expect(@response["result"]["postcode"].length).to be_between(5, 7)
+      expect(@response["result"]["postcode"].gsub(' ','').length).to be_between(5, 7)
     end
 
     it "should return an quality key integer between 1-9" do
