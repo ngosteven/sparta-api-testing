@@ -15,4 +15,4 @@ superClass = Postcodesio.new
 
 # puts superClass.single_postcode_service.get_single_postcode_response('EN14RF')
 
-puts superClass.multiple_postcode_service.get_multiple_postcode_response(['EN14RF', 'EN14QX'])
+# puts superClass.multiple_postcode_service.get_multiple_postcode_response(['EN14RF', 'EN14QX'])
